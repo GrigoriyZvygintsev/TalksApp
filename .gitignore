@@ -1,12 +1,8 @@
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/*
+!/.idea/.gitignore
 .DS_Store
 /build
 /captures
@@ -31,3 +27,7 @@ tests/.env
 
 # Logs
 *.log
+
+# Internal workspace notes (keep local, never publish)
+AI/
+CLAUDE.md

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "meme-brokers-sync-async",
+    "caption": "Брокеры: синхронно vs асинхронно",
+    "image": "/memes/brokers-sync-async.jpg",
+    "tags": ["CI/CD", "Testing"],
+    "talkSlug": "broker-docker-k8s-cicd",
+    "date": "2025-12-10"
+  },
+  {
+    "id": "meme-kafka-retention",
+    "caption": "Kafka Retention: хранение",
+    "image": "/memes/kafka-retention.jpg",
+    "tags": ["CI/CD", "Testing"],
+    "talkSlug": "broker-docker-k8s-cicd",
+    "date": "2025-12-10"
+  },
+  {
+    "id": "meme-kafka-offset",
+    "caption": "Kafka Offset: закладка",
+    "image": "/memes/kafka-offset.jpg",
+    "tags": ["CI/CD", "Testing"],
+    "talkSlug": "broker-docker-k8s-cicd",
+    "date": "2025-12-10"
+  },
+  {
+    "id": "meme-docker-image",
+    "caption": "Docker Image vs Container",
+    "image": "/memes/docker-image-vs-container.jpg",
+    "tags": ["Docker"],
+    "talkSlug": "broker-docker-k8s-cicd",
+    "date": "2025-12-10"
+  },
+  {
+    "id": "meme-docker-compose",
+    "caption": "Docker: ресурсы и Compose",
+    "image": "/memes/docker-resources-compose.jpg",
+    "tags": ["Docker"],
+    "talkSlug": "broker-docker-k8s-cicd",
+    "date": "2025-12-10"
+  },
+  {
+    "id": "meme-k8s-complexity",
+    "caption": "Kubernetes: сложность",
+    "image": "/memes/k8s-complexity.jpg",
+    "tags": ["CI/CD"],
+    "talkSlug": "broker-docker-k8s-cicd",
+    "date": "2025-12-10"
+  },
+  {
+    "id": "meme-k8s-crashloop",
+    "caption": "CrashLoopBackOff",
+    "image": "/memes/k8s-crashloopbackoff.jpg",
+    "tags": ["CI/CD"],
+    "talkSlug": "broker-docker-k8s-cicd",
+    "date": "2025-12-10"
+  },
+  {
+    "id": "meme-k8s-services",
+    "caption": "Kubernetes Services",
+    "image": "/memes/k8s-services.jpg",
+    "tags": ["CI/CD"],
+    "talkSlug": "broker-docker-k8s-cicd",
+    "date": "2025-12-10"
+  },
+  {
+    "id": "meme-qa-evolution",
+    "caption": "Эволюция QA",
+    "image": "/memes/qa-evolution.jpg",
+    "tags": ["Testing"],
+    "talkSlug": "broker-docker-k8s-cicd",
+    "date": "2025-12-10"
+  },
+  {
+    "id": "meme-linux-guru",
+    "caption": "Когда bash-скрипт сработал с первого раза",
+    "image": "/memes/linux-guru.png",
+    "tags": ["Linux"],
+    "talkSlug": "linux-basics",
+    "date": "2025-10-08"
+  },
+  {
+    "id": "meme-linux-terminal",
+    "caption": "grep, awk, sed: чувство контроля",
+    "image": "/memes/linux-terminal.png",
+    "tags": ["Linux"],
+    "talkSlug": "linux-basics",
+    "date": "2025-10-08"
+  },
+  {
+    "id": "meme-linux-permissions",
+    "caption": "chmod 777 — не ответ",
+    "image": "/memes/linux-permissions.png",
+    "tags": ["Linux"],
+    "talkSlug": "linux-basics",
+    "date": "2025-10-08"
+  },
+  {
+    "id": "meme-linux-admin",
+    "caption": "sysadmin-mode включён",
+    "image": "/memes/linux-admin.png",
+    "tags": ["Linux"],
+    "talkSlug": "linux-basics",
+    "date": "2025-10-08"
+  },
+  {
+    "id": "meme-python-list-mutation",
+    "caption": "Передал список в функцию — оригинал тоже изменился",
+    "image": "/memes/python-basics-list-mutation.jpg",
+    "tags": ["Python"],
+    "talkSlug": "python-basics",
+    "date": "2026-02-13"
+  },
+  {
+    "id": "meme-python-default-arg",
+    "caption": "The Default Mutable Argument Trap",
+    "image": "/memes/python-basics-default-arg.jpg",
+    "tags": ["Python"],
+    "talkSlug": "python-basics",
+    "date": "2026-02-13"
+  },
+  {
+    "id": "meme-python-decorator-brain",
+    "caption": "Эволюция логирования: print → wrapper → @log → галактический мозг",
+    "image": "/memes/python-basics-decorator-brain.jpg",
+    "tags": ["Python"],
+    "talkSlug": "python-basics",
+    "date": "2026-02-13"
+  },
+  {
+    "id": "meme-python-inheritance-monster",
+    "caption": "«Это... переиспользование кода?» — наследование от 4 родителей",
+    "image": "/memes/python-basics-inheritance-monster.jpg",
+    "tags": ["Python", "OOP"],
+    "talkSlug": "python-basics",
+    "date": "2026-02-13"
+  },
+  {
+    "id": "meme-python-dataclass",
+    "caption": "До: 20 строк вручную. После: @dataclass. Чистая магия!",
+    "image": "/memes/python-basics-dataclass.jpg",
+    "tags": ["Python", "OOP"],
+    "talkSlug": "python-basics",
+    "date": "2026-02-13"
+  },
+  {
+    "id": "meme-automation-unittest-boilerplate",
+    "caption": "Эволюция тестов на Python: unittest → pytest → фикстура → assert",
+    "image": "/memes/automation-unittest-boilerplate.jpg",
+    "tags": ["pytest"],
+    "talkSlug": "python-automation",
+    "date": "2026-02-14"
+  },
+  {
+    "id": "meme-automation-fixture-magic",
+    "caption": "Пишешь имя аргумента — pytest сам подставляет фикстуру",
+    "image": "/memes/automation-fixture-magic.jpg",
+    "tags": ["pytest"],
+    "talkSlug": "python-automation",
+    "date": "2026-02-14"
+  },
+  {
+    "id": "meme-automation-wait-evolution",
+    "caption": "Эволюция ожидания элемента: time.sleep → WebDriverWait → Playwright",
+    "image": "/memes/automation-wait-evolution.jpg",
+    "tags": ["Playwright"],
+    "talkSlug": "python-automation",
+    "date": "2026-02-14"
+  },
+  {
+    "id": "meme-automation-page-object-dry",
+    "caption": "DRY principle в действии: без Page Object vs с Page Object",
+    "image": "/memes/automation-page-object-dry.jpg",
+    "tags": ["Page Object"],
+    "talkSlug": "python-automation",
+    "date": "2026-02-14"
+  },
+  {
+    "id": "meme-automation-docker-my-machine",
+    "caption": "Docker: больше никакого «у меня работает»",
+    "image": "/memes/automation-docker-my-machine.jpg",
+    "tags": ["Docker", "CI/CD"],
+    "talkSlug": "python-automation",
+    "date": "2026-02-14"
+  }
+]
