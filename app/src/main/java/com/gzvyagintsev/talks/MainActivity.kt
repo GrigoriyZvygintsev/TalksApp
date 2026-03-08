@@ -20,7 +20,10 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.navigation.NavGraph.Companion.findStartDestination
@@ -64,7 +67,9 @@ class MainActivity : ComponentActivity() {
                 val showBottomBar = currentRoute in bottomNavItems.map { it.route }
 
                 Scaffold(
-                    modifier = Modifier.fillMaxSize(),
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .semantics { @OptIn(ExperimentalComposeUiApi::class) testTagsAsResourceId = true },
                     containerColor = BgColor,
                     bottomBar = {
                         if (showBottomBar) {
